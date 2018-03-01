@@ -7,9 +7,19 @@ function theBeatlesPlay(musicians, instruments)
     empty.push(`${musicians[c]} plays ${instruments[c]}`);
     c = c + 1;
   }
+  return empty;
 }
 
-
+function johnLennonFacts(facts)
+{
+  var returnArray = {};
+  while(c < facts.length)
+  {
+    returnArray.push(`${facts[c]}!!!`);
+    c = c + 1;
+  }
+  return returnArray;
+}
 
 
 
